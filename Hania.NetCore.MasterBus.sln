@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaniaNetCore.MasterBus.Sample", "HaniaNetCore.MasterBus.Sample\HaniaNetCore.MasterBus.Sample.csproj", "{5396C5A1-115B-4CA3-BA2A-9A5392F7C058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hania.NetCore.MasterBus", "Hania.NetCore.MasterBus\Hania.NetCore.MasterBus.csproj", "{4EBAAF4E-85CE-428C-8DD5-E046B657C929}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5396C5A1-115B-4CA3-BA2A-9A5392F7C058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5396C5A1-115B-4CA3-BA2A-9A5392F7C058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5396C5A1-115B-4CA3-BA2A-9A5392F7C058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5396C5A1-115B-4CA3-BA2A-9A5392F7C058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBAAF4E-85CE-428C-8DD5-E046B657C929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBAAF4E-85CE-428C-8DD5-E046B657C929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBAAF4E-85CE-428C-8DD5-E046B657C929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBAAF4E-85CE-428C-8DD5-E046B657C929}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

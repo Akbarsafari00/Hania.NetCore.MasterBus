@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Akbar\.nuget\packages\mongodb.driver.core\2.13.0-beta1\contentFiles\any\netstandard2.1\Core\Compression" t="Include">
+      <e p="Snappy" t="Include">
+        <e p="lib" t="Include">
+          <e p="win" t="Include">
+            <e p="snappy32.dll" t="Include" />
+            <e p="snappy64.dll" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Zstandard" t="Include">
+        <e p="lib" t="Include">
+          <e p="win" t="Include">
+            <e p="libzstd.dll" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
+    <e p="C:\Users\Akbar\.nuget\packages\mongodb.driver.core\2.13.0-beta1\runtimes\win\native\libzstd.dll" t="Include" />
+    <e p="C:\Users\Akbar\.nuget\packages\mongodb.driver.core\2.13.0-beta1\runtimes\win\native\snappy32.dll" t="Include" />
+    <e p="C:\Users\Akbar\.nuget\packages\mongodb.driver.core\2.13.0-beta1\runtimes\win\native\snappy64.dll" t="Include" />
+    <e p="C:\Users\Akbar\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Akbar\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Hania.NetCore.MasterBus.-319283904.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Akbar\RiderProjects\Hania.NetCore.MasterBus" t="IncludeFlat">
+      <e p="Hania.NetCore.MasterBus" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Builder" t="Include">
+          <e p="HaniaMicroserviceBuilder.cs" t="Include" />
+          <e p="IHaniaMicroserviceBuilder.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="Commands" t="Include">
+            <e p="CommandDispatcher.cs" t="Include" />
+            <e p="ICommand.cs" t="Include" />
+            <e p="ICommandBus.cs" t="Include" />
+            <e p="ICommandDispatcher.cs" t="Include" />
+            <e p="ICommandHandler.cs" t="Include" />
+            <e p="ICommandResult.cs" t="Include" />
+          </e>
+          <e p="CoreExtensions.cs" t="Include" />
+          <e p="Events" t="Include">
+            <e p="EventDispatcher.cs" t="Include" />
+            <e p="IDomainEvent.cs" t="Include" />
+            <e p="IEvent.cs" t="Include" />
+            <e p="IEventBus.cs" t="Include" />
+            <e p="IEventDispatcher.cs" t="Include" />
+            <e p="IEventHandler.cs" t="Include" />
+          </e>
+          <e p="EventSource" t="Include">
+            <e p="IEventStore.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="AssemblyExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+          </e>
+          <e p="IMessageBus.cs" t="Include" />
+          <e p="IMessageConsumer.cs" t="Include" />
+          <e p="Messaging" t="Include">
+            <e p="MessagePacket.cs" t="Include" />
+          </e>
+          <e p="Outbox" t="Include">
+            <e p="IoutboxStore.cs" t="Include" />
+          </e>
+        </e>
+        <e p="EventSourcing" t="Include">
+          <e p="Builders" t="Include">
+            <e p="EventSourcingOptionsBuilder.cs" t="Include" />
+            <e p="IEventSourcingOptionsBuilder.cs" t="Include" />
+          </e>
+          <e p="Enums" t="Include">
+            <e p="EventSourcingType.cs" t="Include" />
+          </e>
+          <e p="EventSourcingExtensions.cs" t="Include" />
+          <e p="Options" t="Include">
+            <e p="EventSourcingOptions.cs" t="Include" />
+          </e>
+          <e p="Stores" t="Include">
+            <e p="EFCore" t="Include">
+              <e p="Builders" t="Include">
+                <e p="EFCoreEventSourcingOptionsBuilder.cs" t="Include" />
+              </e>
+              <e p="EFCoreEventSourcingExtensions.cs" t="Include" />
+              <e p="Options" t="Include">
+                <e p="EFCoreEventSourcingOptions.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Mongo" t="Include">
+              <e p="Builders" t="Include">
+                <e p="MongoEventSourcingOptionsBuilder.cs" t="Include" />
+              </e>
+              <e p="Document" t="Include">
+                <e p="EventDocument.cs" t="Include" />
+              </e>
+              <e p="MongoEventSourcingExtensions.cs" t="Include" />
+              <e p="MongoStore.cs" t="Include" />
+              <e p="Options" t="Include">
+                <e p="MongoEventSourcingOptions.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Extensions.cs" t="Include" />
+        <e p="Hania.NetCore.MasterBus.csproj" t="IncludeRecursive" />
+        <e p="HaniaMicroServiceOption.cs" t="Include" />
+        <e p="Messaging" t="Include">
+          <e p="CommandBus.cs" t="Include" />
+          <e p="Core" t="Include">
+            <e p="Builders" t="Include">
+              <e p="IMessagingOptionsBuilder.cs" t="Include" />
+              <e p="MessagingOptionsBuilder.cs" t="Include" />
+            </e>
+            <e p="Enums" t="Include">
+              <e p="MessageBrokerType.cs" t="Include" />
+              <e p="MessageType.cs" t="Include" />
+            </e>
+            <e p="Options" t="Include">
+              <e p="MessagingOptions.cs" t="Include" />
+            </e>
+          </e>
+          <e p="EventBus.cs" t="Include" />
+          <e p="IdempotentConsumer.cs" t="Include" />
+          <e p="MessageBrokers" t="Include">
+            <e p="RabbitMQ" t="Include">
+              <e p="Builders" t="Include">
+                <e p="IRabbitMQMessagingOptionsBuilder.cs" t="Include" />
+                <e p="RabbitMqMessagingOptionsBuilder.cs" t="Include" />
+              </e>
+              <e p="Extensions" t="Include">
+                <e p="BasicDeliverEventArgsExtensions.cs" t="Include" />
+              </e>
+              <e p="HostedServices" t="Include">
+                <e p="RabbitMQHostedService.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IRabbitMQProvider.cs" t="Include" />
+              </e>
+              <e p="Options" t="Include">
+                <e p="RabbitMQMessagingOptions.cs" t="Include" />
+              </e>
+              <e p="RabbitMQMessageBus.cs" t="Include" />
+              <e p="RabbitMQMessagingExtensions.cs" t="Include" />
+              <e p="RabbitMQProvider.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MessagingExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="Hania.NetCore.MasterBus.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Outbox" t="Include">
+          <e p="Builders" t="Include">
+            <e p="IOutboxOptionsBuilder.cs" t="Include" />
+            <e p="OutboxOptionsBuilder.cs" t="Include" />
+          </e>
+          <e p="Enums" t="Include">
+            <e p="OutboxType.cs" t="Include" />
+          </e>
+          <e p="HostedServices" t="Include">
+            <e p="OutboxProcessor.cs" t="Include" />
+          </e>
+          <e p="InboxItem.cs" t="Include" />
+          <e p="Options" t="Include">
+            <e p="OutboxOptions.cs" t="Include" />
+          </e>
+          <e p="OutboxExtensions.cs" t="Include" />
+          <e p="OutboxItem.cs" t="Include" />
+          <e p="Stores" t="Include">
+            <e p="Mongo" t="Include">
+              <e p="Builders" t="Include">
+                <e p="MongoOutboxOptionsBuilder.cs" t="Include" />
+              </e>
+              <e p="Document" t="Include">
+                <e p="InboxDocumentcs.cs" t="Include" />
+                <e p="OutboxDocument.cs" t="Include" />
+              </e>
+              <e p="MongooutboxExtensions.cs" t="Include" />
+              <e p="MongoOutboxStore.cs" t="Include" />
+              <e p="Options" t="Include">
+                <e p="MongoOutboxOptions.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Hania.NetCore.MasterBus.sln" t="IncludeFlat" />
+      <e p="HaniaNetCore.MasterBus.Sample" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="CreateBlog.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="WeatherForecastController.cs" t="Include" />
+        </e>
+        <e p="Events" t="Include">
+          <e p="BlogCreated.cs" t="Include" />
+          <e p="BlogUpdated.cs" t="Include" />
+        </e>
+        <e p="HaniaNetCore.MasterBus.Sample.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="HaniaNetCore.MasterBus.Sample.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WeatherForecast.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
