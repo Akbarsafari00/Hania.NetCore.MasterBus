@@ -20,4 +20,16 @@
       <PackageReference Include="Scrutor.AspNetCore" Version="3.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="obj\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="obj\**" />
+    </ItemGroup>
+
 </Project>
